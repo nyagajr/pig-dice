@@ -1,5 +1,7 @@
 h1{
   text-align: center;
-  color: #800000;
-  
+  color: #B22222;
+}
+body{
+  background-image: url("dice.jpg");
 }
