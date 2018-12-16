@@ -1,0 +1,14 @@
+.container, .background-image{
+  background-image: url("../img/dicex.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+
+h1{
+  color: navy;
+  text-align: center;
+  text-shadow: ;
+  text-decoration-color: yellow;
+  text-emphasis-color: yellow;
+}
