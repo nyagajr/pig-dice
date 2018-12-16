@@ -2,13 +2,12 @@
   background-image: url("../img/dicex.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-blend-mode: color-dodge;
 }
 
 h1{
-  color: navy;
+  color: yellow;
   text-align: center;
-  text-shadow: ;
+  text-shadow: 2px 2px 4px #000000;
   text-decoration-color: yellow;
   text-emphasis-color: yellow;
 }
@@ -25,7 +24,10 @@ h1{
   background-color: green;
   opacity: 0.9;
 }
-
+div{
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
 .box2{
   position: absolute;
   left: 100px;
@@ -38,4 +40,7 @@ h1{
   font-size: 480%;
   background-color: navy;
   opacity: 0.9;
+}
+#dice-1{
+  
 }
