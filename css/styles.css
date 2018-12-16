@@ -2,7 +2,7 @@
   background-image: url("../img/dicex.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: white;
+  background-blend-mode: color-dodge;
 }
 
 h1{
@@ -12,11 +12,10 @@ h1{
   text-decoration-color: yellow;
   text-emphasis-color: yellow;
 }
-.box{
-  position: absolute;
-  right: 150px;
+.box1{
+  position: fixed;
+  right: 100px;
   border: 1px solid yellow;
-  box-sizing: inherit;
   width: 400px;
   height: 500px;
   text-align: center;
@@ -24,5 +23,19 @@ h1{
   font-style: oblique;
   font-size: 480%;
   background-color: green;
+  opacity: 0.9;
+}
 
+.box2{
+  position: absolute;
+  left: 100px;
+  border: 1px solid yellow;
+  width: 400px;
+  height: 500px;
+  text-align: center;
+  font-weight: 700;
+  font-style: oblique;
+  font-size: 480%;
+  background-color: navy;
+  opacity: 0.9;
 }
