@@ -1,7 +1,9 @@
 .container, .background-image{
-  background-image: url("../img/dicex.jpg");
+  /* background-image: url("../img/dicex.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: black;
+
 }
 
 h1{
@@ -41,6 +43,25 @@ div{
   background-color: navy;
   opacity: 0.9;
 }
-#dice-1{
-  
+.button-1{
+  position: absolute;
+  right: 600px;
+  bottom: 585px;
+  border: 1px solid yellow;
+  text-align: center;
+  font-weight: 700;
+  font-style: oblique;
+  background-color: #008CBA;
+  border-radius: 2px;
+}
+.button-2{
+  position: absolute;
+  right: 600px;
+  bottom: 550px;
+  border: 1px solid yellow;
+  text-align: center;
+  font-weight: 700;
+  font-style: oblique;
+  background-color: red;
+  border-radius: 2px;
 }
