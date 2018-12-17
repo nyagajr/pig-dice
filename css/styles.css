@@ -22,7 +22,7 @@ h1{
   text-align: center;
   font-weight: 700;
   font-style: oblique;
-  font-size: 480%;
+  font-size: 300%;
   background-color: green;
   opacity: 0.9;
 }
@@ -39,7 +39,7 @@ div{
   text-align: center;
   font-weight: 700;
   font-style: oblique;
-  font-size: 480%;
+  font-size: 300%;
   background-color: navy;
   opacity: 0.9;
 }
