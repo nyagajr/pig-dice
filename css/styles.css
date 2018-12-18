@@ -43,10 +43,21 @@ div{
   background-color: navy;
   opacity: 0.9;
 }
+.button-0{
+  position: absolute;
+  right: 600px;
+  bottom: 600px;
+  border: 1px solid yellow;
+  text-align: center;
+  font-weight: 700;
+  font-style: oblique;
+  background-color: gray;
+  border-radius: 2px;
+}
 .button-1{
   position: absolute;
   right: 600px;
-  bottom: 585px;
+  bottom: 550px;
   border: 1px solid yellow;
   text-align: center;
   font-weight: 700;
@@ -57,7 +68,7 @@ div{
 .button-2{
   position: absolute;
   right: 600px;
-  bottom: 550px;
+  bottom: 520px;
   border: 1px solid yellow;
   text-align: center;
   font-weight: 700;
