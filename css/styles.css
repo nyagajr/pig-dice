@@ -25,6 +25,7 @@ h1{
   font-size: 300%;
   background-color: green;
   opacity: 0.9;
+  /* display: none; */
 }
 div{
   color: white;
