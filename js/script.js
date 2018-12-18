@@ -6,47 +6,33 @@ $(document).ready(function(){
    });
 
    $(".button-1").click(function(){
-     //alert("hello world!");
-     randomNumber1();
-
+     //alert("hello world!"); button check
+     randomNumber();
      });
 
     $(".button-2").click(function(){
-       alert("check!");
+       // alert("check!");
+       
     });
 
 });
 
 // back end javascript
- function randomNumber1(){
+ function randomNumber(){
         var min = 1;
         var max = 6;
         var result = Math.floor(Math.random()*max)+min;
-        //return result;
 
  if (result === 1){
-   alert("Its player 2's turn");
-   $('.box1').show();
-   $('.box2').hide();
-randomNumber2();
- }else{
-   alert(result);
+    $('.label4').text(0);
+ }
+ else{
+  // alert();
+  $('.label4').text(result);
  }
 };
-
-function randomNumber2(){
-       var min = 1;
-       var max = 6;
-       var result = Math.floor(Math.random()*max)+min;
-       //return result;
-
-if (result === 1){
-  alert("Its player 1's turn");
-  $('.box1').hide();
-  $('.box2').show();
-
+//function that pushes the score result to total
+function hold(){
+  var final = (parseInt('.label4').text());
+  $('.label3').text(final);
 }
-randomNumber2();
-else{
-  alert(result);
-}};
