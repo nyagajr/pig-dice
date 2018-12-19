@@ -19,6 +19,7 @@ $(document).ready(function(){
     $(".button-2").click(function(){
        // alert("check!");
        hold();
+       $('.label6').text(0);
       $(".button-2").hide();
       $(".button-1").hide();
       $(".button-3").show();
@@ -29,6 +30,7 @@ $(document).ready(function(){
     $(".button-4").click(function(){
        // alert("check!");
        hold1();
+       $('.label5').text(0);
        $(".button-3").hide();
        $(".button-4").hide();
        $(".button-1").show();
@@ -56,16 +58,24 @@ $(document).ready(function(){
  else{
   // alert();
   $('.label4').text(result);
+ addP1();
  }
 };
+function addP1(){
+var num1 = parseInt($('.label4').text());
+var num2 = parseInt($('.label6').text());
+var resX = num1+num2;
+  $('.label6').text(resX);
+};
+
 //function that pushes the score result to total
 function hold(){
-var final4 = $('.label4').text();
+var final4 = $('.label6').text();
 var final3 = $('.label3').text();
 var res = add(final4,final3);
   //alert(res);
   $('.label3').text(res);
-  $('.label6').text('yey');
+  //$('.label6').text('yey');
 
   if (res >=10){
     $('.label3').text("you won");
@@ -78,6 +88,7 @@ var res = add(final4,final3);
     $('.button-3').hide();
     $('.button-4').hide();
     $('.gif').show();
+    $('.audio').play();
 
   }else {
     $('.label3').text(res);
@@ -118,34 +129,24 @@ if (result === 1){
 
 }
 else{
+
  // alert();
  $('.label2').text(result);
+ addP2();
 }
 };
 
-
-
-function randomNumber1(){
-       var min = 1;
-       var max = 6;
-       var result = Math.floor(Math.random()*max)+min;
-
-if (result === 1){
-   $('.label2').text("player one turn");
-   $('.button-4').hide();
-   $('.button-3').hide();
-   $('.button-2').show();
-   $('.button-1').show();
-
-}
-else{
- // alert();
- $('.label2').text(result);
-}
+function addP2(){
+var num1 = parseInt($('.label2').text());
+var num2 = parseInt($('.label5').text());
+var resX = num1+num2;
+  $('.label5').text(resX);
 };
+
+
 //function that pushes the score result to total for player2
 function hold1(){
-var final4 = $('.label2').text();
+var final4 = $('.label5').text();
 var final3 = $('.label1').text();
 // var final2 = $('.label5').text();
 
@@ -166,6 +167,7 @@ var res = add(final4,final3);
    $('.button-3').hide();
    $('.button-4').hide();
    $('.gif').show();
+   $('.audio').play();
  }else {
    $('.label1').text(res);
    $('.label2').text(0);
