@@ -15,7 +15,7 @@ h1{
 }
 .box1{
   position: fixed;
-  right: 100px;
+  right: 50px;
   border: 1px solid yellow;
   width: 400px;
   height: 500px;
@@ -33,7 +33,7 @@ div{
 }
 .box2{
   position: absolute;
-  left: 100px;
+  left: 50px;
   border: 1px solid yellow;
   width: 400px;
   height: 500px;
@@ -57,7 +57,7 @@ div{
 }
 .button-1{
   position: absolute;
-  right: 600px;
+  right: 780px;
   bottom: 550px;
   border: 1px solid yellow;
   text-align: center;
@@ -65,10 +65,11 @@ div{
   font-style: oblique;
   background-color: #008CBA;
   border-radius: 2px;
+
 }
 .button-2{
   position: absolute;
-  right: 600px;
+  right: 777px;
   bottom: 520px;
   border: 1px solid yellow;
   text-align: center;
@@ -76,4 +77,31 @@ div{
   font-style: oblique;
   background-color: red;
   border-radius: 2px;
+}
+.button-3{
+  position: absolute;
+  left: 780px;
+  bottom: 550px;
+  border: 1px solid yellow;
+  text-align: center;
+  font-weight: 700;
+  font-style: oblique;
+  background-color: green;
+  border-radius: 2px;
+  display: none;
+}
+.button-4{
+  position: absolute;
+  left: 777px;
+  bottom: 520px;
+  border: 1px solid yellow;
+  text-align: center;
+  font-weight: 700;
+  font-style: oblique;
+  background-color: red;
+  border-radius: 2px;
+  display: none;
+}
+.gif{
+  display: none;
 }
